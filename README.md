@@ -14,7 +14,7 @@ When you are ready to see your site live, click the button below:
 4. Push your changes to GitHub, then click the Deploy button above!
 
 
-🛠️ How to Complete this Assignment (Web Interface)
+### 🛠️ How to Complete this Assignment (Web Interface)
 You do not need to install any software on your computer. You can edit, commit, and deploy entirely through your browser.
 
 1. Edit your Code
@@ -46,7 +46,7 @@ Scroll down to this README and click the Deploy to Render button below:
 
 Note: Render will automatically detect your GitHub account. Just click "Connect" and then "Apply" to start the build.
 
-📥 Submission Instructions (LMS)
+###📥 Submission Instructions (LMS)
 To submit your assignment to [Your LMS Name], follow these steps:
 
 Get your Live URL:
