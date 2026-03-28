@@ -24,7 +24,7 @@ Click on App.jsx.
 
 Click the Pencil Icon (Edit this file) in the top right corner.
 
-Change the <h1> text to your name and update the message.
+Change the &lt;h1&gt; text to your name and update the message.
 
 Click the green Commit changes... button at the top right.
 
@@ -47,7 +47,7 @@ Scroll down to this README and click the Deploy to Render button below:
 Note: Render will automatically detect your GitHub account. Just click "Connect" and then "Apply" to start the build.
 
 ###📥 Submission Instructions (LMS)
-To submit your assignment to [Your LMS Name], follow these steps:
+To submit your assignment to Populi, follow these steps:
 
 Get your Live URL:
 
