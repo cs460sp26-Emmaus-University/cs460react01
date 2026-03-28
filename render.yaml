@@ -1,10 +1,13 @@
 services:
   - type: static
-    name: react-assignment-${RENDER_GIT_REPO_SLUG} # Unique URL for every student
+    name: react-assignment-${RENDER_GIT_REPO_SLUG}
     env: static
     buildCommand: npm install && npm run build
-    publishPath: dist # Vite builds to 'dist', CRA builds to 'build'
+    publishPath: dist
+    autoDeploy: true # This is the magic line
     routes:
       - type: rewrite
         source: /*
-        destination: /index.html # This prevents 404s if students use React Router
+        destination: /index.html
+    # Optional: Ensures the site is "healthy" before showing it to you
+    healthCheckPath: /
