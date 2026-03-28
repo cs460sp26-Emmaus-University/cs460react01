@@ -5,7 +5,7 @@ Welcome to your first React project!
 ### 🚀 How to Deploy
 When you are ready to see your site live, click the button below:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/${{github.repository}})
 
 ### 📝 Your Task
 1. Open `src/App.jsx`.
