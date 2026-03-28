@@ -1,5 +1,10 @@
 services:
   - type: static
-    name: assignment-1-${RENDER_GIT_REPO_SLUG} # Unique name per student
+    name: react-assignment-${RENDER_GIT_REPO_SLUG} # Unique URL for every student
+    env: static
     buildCommand: npm install && npm run build
-    publishPath: build # or 'dist' if using Vite
+    publishPath: dist # Vite builds to 'dist', CRA builds to 'build'
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html # This prevents 404s if students use React Router
